@@ -30,12 +30,16 @@
 
 /* Estilos para el INDEX */
 /*Estilo para el header*/
+.barra__header--titulo img {
+    height: 6.5rem;
+
+}
+
 .barra__header--i {
     top: 0;
-    background-color: rgb(213, 197, 199);
+    background-color: rgb(230, 221, 222);
     z-index: 1;
     height: 7rem;
-    border-bottom: 3px solid grey;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -80,7 +84,7 @@
 /* Estilos para el main */
 
 .index__main {
-    background-color: white;
+    background-color: rgb(213, 197, 199);
     border-bottom: 3px solid grey;
 }
 
@@ -96,7 +100,7 @@
 /*Estilo para el footer*/
 
 .rfooter {
-    background-color: rgb(213, 197, 199);
+    background-color: rgb(173, 143, 148);
     height: 7.2rem;
     display: flex;
     flex-direction: column;
@@ -153,7 +157,9 @@
         height: 5rem;
         justify-content: space-between;
         align-items: center;
+        position: fixed
     }
+
     /* Estilos para el main */
 
     .index__main {
@@ -165,7 +171,7 @@
         height: 69.5vh;
         width: 100vw;
     }
-    
+
 
     /* Estilos para el footer */
 
@@ -183,7 +189,7 @@
     .footer__titulo a:link,
     .footer__titulo a:visited {
         text-decoration: none;
-        color: gray;
+        color: white;
     }
 
     .footer__iconos {
@@ -301,8 +307,6 @@
 .home {
     background-color: white
 }
-
-
 
 
 /* Estilos para el HOME MAIN */
@@ -507,85 +511,22 @@
 /* Estilos para el CONTACTO*/
 
 .cmain {
-    position: relative;
-    top: 0;
     background-color: gray;
     border-bottom: 3px solid white;
-    overflow: hidden;
-    height: 800px;
+    height: 500vh;
 }
-
-.cmain h1 {
+.container h1{
     font-family: garetbook;
-    font-size: 40px;
-    top: 250px;
-    margin: 25px 70px;
-    border-radius: 5px;
-    color: white;
+    text-align: center;
+    background-color: rgb(173, 143, 148);
+}
+.col-12{
+    text-align: center;
+    font-family: garetbook;
+}
+.main__boton{
     text-align: center;
 }
 
-.main__fa {
-    width: 500px;
-    height: 700px;
-    margin: 0 auto;
-    padding: 10px;
-}
-
-.main__f {
-    margin: 30px 0;
-}
-
-.main__f label,
-textarea,
-input {
-    display: block;
-    margin: 5px;
-}
-
-.main__f label {
-    color: white;
-    font-family: garetbook;
-    font-size: 25px;
-}
-
-.main__input {
-    height: 30px;
-    width: 450px;
-    color: rgb(213, 197, 199);
-    font-family: garetheavy;
-    font-size: 17px;
-    font-weight: 700;
-    padding: 5px;
-}
-
-.main__men {
-    width: 450px;
-    height: 100px;
-    color: rgb(213, 197, 199);
-    font-family: garetheavy;
-    font-size: 15px;
-    font-weight: 700;
-    padding: 5px;
-}
-
-.main__enviar,
-.main__rees {
-    display: inline-block;
-}
-
-.main__enviar,
-.main__rees {
-    border-radius: 3px;
-    padding: 10px;
-    font-family: garetbook;
-    font-size: 20px;
-    background-color: rgb(213, 197, 199);
-}
-
-.main__enviar:hover,
-.main__rees:hover {
-    box-shadow: 3px 3px 6px white;
-}
 
 /*----------------------------------------------------------------------------------------------------------------*/
